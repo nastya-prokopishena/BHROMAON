@@ -1,0 +1,120 @@
+.spain {
+    width: 100%;
+    height: 700px;
+    background-image: url(/dist/img/spain.png);
+    background: no-repeat url(/dist/img/spain.png);
+    &__context {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 250px ;
+    }
+    
+}
+.context {
+    width: 541px;
+    height: 371px;
+    background-image: url(/dist/img/spain-background.png);
+
+    &__version {
+        margin-left:30px ;
+        margin-top: 50px;
+}
+}
+.version {
+    width: 480px;
+    color: white;
+
+    &__heading{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    &__rubric {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 1.3;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+          
+    }
+    &__describtion{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+    }
+    &__btn{
+        width: 225px;
+        height: 60px;
+        background-color: #5474fd;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.12) 40%, rgba(255, 255, 255, 0.12) 50%);
+        color: white;
+        font-family: "Aleo_regular";
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 45px;
+        border: none;
+        
+    }
+    &__btn-link {
+        text-decoration: none;
+        color: white ;
+    }
+}
+@media screen and (min-width:1900px) {
+    .spain {
+       background-size: 100%; 
+    }
+}
+@media screen and (max-width:1280px) {
+    .spain {
+        &__context {
+            margin-top: 200px;
+            margin-left: 130px ;
+        }
+        
+    }
+}
+@media screen and (max-width:1024px) {
+    .spain {
+        &__context {
+            margin-top: 200px;
+            margin-left: 40px ;
+        }
+        
+    }
+}
+@media screen and (max-width:960px) {
+    .spain {
+        &__context {
+            margin-top: 170px;
+            margin-left: 40px ;
+        }
+        
+    }
+}
+@media screen and (max-width:640px) {
+    .spain {
+        &__context {
+            margin-left: 35px;
+        }
+    }
+}
+@media screen and (max-width:320px)  {
+    .spain {
+        &__context {
+            margin-left: 18px;
+        }
+    }
+    .context {
+        width: 250px;
+        height: 400px;
+    }
+    .version {
+        width: 240px;
+        margin-left: 10px;
+        &__btn{
+            margin-top: 35px;
+            
+        }
+    }
+}

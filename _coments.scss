@@ -1,0 +1,140 @@
+.coments {
+    width: 100%;
+    background-image: url(/dist/img/coments.png);
+    color: white;
+    height: 735px;
+    display: flex;
+    justify-content: center;
+
+    &__title {
+        margin-top: 100px;
+
+    }
+    &__expositor {  
+        position: absolute;
+        margin-top: 250px;
+
+    }
+}
+.title {
+    &__headline {
+        font-family: "Aleo_regular";
+        font-size: 36px;
+    }
+}
+.expositor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1110px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    &__commentary {
+        width: 665px ;
+        background-color: #333333;
+    }
+}
+.commentary {
+    
+    &__name{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 55px;
+        margin-top: 65px;
+    }
+    &__text {
+        width: 555px;
+        font-size: 16px;
+        margin-top:20px ;
+        margin-left: 55px;
+    }
+      
+}
+@media screen and (max-width:1024px) {
+    .coments {
+    
+        &__title {
+            margin-top: 10px;
+    
+        }
+        &__expositor {  
+            margin-top: 120px;
+    
+        }
+    }
+    .expositor {
+        flex-direction: column;
+        max-width: 900px;
+    }
+    .commentary {
+    
+        &__name{
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        &__text {
+            width: 600px;
+            margin-top:20px ;
+            margin-left: 15px;
+        }
+          
+    }
+}
+@media screen and (max-width:640px) {
+    .coments {
+    
+        &__title {
+            margin-top: 15px;
+    
+        }
+        &__expositor {  
+            margin-top: 130px;
+    
+        }
+    }
+    .expositor {
+        flex-direction: column;
+        max-width: 550px;
+    }
+    .commentary {
+        width: 550px;
+        &__text {
+            width: 500px;
+            margin-top:25px ;
+        }
+          
+    }
+}
+@media screen and (max-width:320px) {
+    .coments {
+        &__title  {
+            margin-top: 20px;
+        }
+    }
+    .title {
+        &__headline {
+            font-size: 24px;
+            text-align: center;
+        }
+        
+    }
+    .expositor {
+        display: flex;
+        align-items: center;
+        &__foto {
+            width: 250px;
+        }
+    }
+    .commentary {
+    width: 250px;
+    &__text    {
+        width: 200px;
+    }
+}
+}
+@media screen and (min-width:1900px) {
+    .coments {
+       background-size: 100%; 
+    }
+}
+

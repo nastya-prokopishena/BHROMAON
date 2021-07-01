@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Aleo_regular";
+    src: url(/dist/fonts/aleo-regular-webfont.ttf);
+}
+.header {
+    height: 750px;
+    background-image: url(/dist/img/header.png);
+    background: no-repeat url(/dist/img/header.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__scroll {
+        margin-top: 120px;
+    }
+    &__search {
+        margin-top: 53px;
+    }
+}
+.caption {
+    max-width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        margin-top: 265px;
+        text-align: center;
+        
+    }
+    &__describtion {
+        font-weight: 400;
+        font-size: 22px;
+        text-align: center;
+        line-height: 1.182;
+        letter-spacing: 7px;
+
+          
+    }
+}
+.search {
+    width: 540px ;
+    height: 50px;
+    border: 5px white;
+    display: flex;
+    
+    &__line {
+        font-family: 'Josefin Sans', sans-serif;
+        height: 45px;
+        font-weight: 400;
+        width: 400px;
+        text-align: center;
+        
+    }
+    &__button {
+        width: 120px;
+        height:45px;
+        background-color: #5474fd;
+        border:none ; 
+         
+    }
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    &__text {
+        font-family: "Aleo_regular";
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;  
+        letter-spacing: 1px; 
+        }
+       
+}
+.scroll {
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 135px;
+    &__text {
+        color: white;
+        font-size: 12px;
+        font-family: 'Josefin Sans', sans-serif;
+        letter-spacing: 2px;
+        margin-bottom: 15px ;
+    }
+}
+@media screen and (min-width:1900px) {
+    .header {
+       background-size: 100%; 
+    }
+}
+@media screen and (max-width:320px) {
+    .caption{
+        max-width: 300px;
+        &__title {
+            font-size: 38px;
+            margin-top: 200px;
+            
+        }
+        &__describtion {
+            font-size: 18px;   
+        }
+    }
+    .search {
+        width: 300px ;
+        height: 50px;
+        
+        &__line {
+            width: 250px;
+            margin-left: 20px;
+        }
+        &__button {
+            width: 255px;
+            margin-left: 20px;
+            margin-top: 5px; 
+        }
+    }
+    .button {
+        &__text {
+            margin-left: 80px;
+        }
+    }
+}

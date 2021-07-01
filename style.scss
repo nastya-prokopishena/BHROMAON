@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Aleo_bold";
+    src: url(./dist/fonts/aleo-bold-webfont.ttf);
+}
+@font-face {
+    font-family: "Aleo_regular";
+    src: url(./dist/fonts/aleo-regular-webfont.ttf);
+}
+/*@import "reset";*/
+@import "header";
+@import "menu";
+@import "explore-places";
+@import "places";
+@import "spain";
+@import "madrid";
+@import "coments";
+@import "footer";
+html, body {
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}

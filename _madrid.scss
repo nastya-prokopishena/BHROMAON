@@ -1,0 +1,67 @@
+.madrid {
+    width: 100%;
+    background-image: url(/dist/img/madrid.png);
+    background: no-repeat url(/dist/img/madrid.png);
+    height: 700px;
+    &__context {
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 850px ;
+    }
+}
+@media screen and (min-width:1900px) {
+    .madrid {
+       background-size: 100%; 
+    }
+}
+@media screen and (max-width:1280px) {
+    .madrid {
+        &__context {
+            margin-top: 200px;
+            margin-left: 580px;
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .madrid {
+        &__context {
+            margin-top: 200px;
+            margin-left: 400px;
+        }
+    }
+}
+@media screen and (max-width:960px) {
+    .madrid {
+        &__context {
+            margin-top: 170px;
+            margin-left: 340px;
+        }
+    }
+}
+@media screen and (max-width:640px) {
+    .madrid {
+        &__context {
+            margin-left: 35px;
+        }
+    }
+}
+@media screen and (max-width:320px) {
+    .madrid {
+        &__context {
+            margin-left: 18px;
+        }
+    }
+    .context {
+        width: 250px;
+        height: 400px;
+    }
+    .version {
+        width: 240px;
+
+        margin-left: 10px;
+        &__btn{
+            margin-top: 35px;
+            
+        }
+    }
+}
