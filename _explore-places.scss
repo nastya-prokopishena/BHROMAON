@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Aleo_regular";
-    src: url(/dist/fonts/aleo-regular-webfont.ttf);
+    src: url(./fonts/aleo-regular-webfont.ttf);
 }
 .explore-places {
     width: 100%;
-    background-image: url(/dist/img/explore-places.png);
-    background: no-repeat url(/dist/img/explore-places.png);
+    background-image: url(./img/explore-places.png);
+    background: no-repeat url(./img/explore-places.png);
     height: 685px;
     &__words {
         position: absolute;

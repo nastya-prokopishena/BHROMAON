@@ -13,8 +13,8 @@
 }
 .header {
   height: 750px;
-  background-image: url(/dist/img/header.png);
-  background: no-repeat url(/dist/img/header.png);
+  background-image: url(./img/header.png);
+  background: no-repeat url(./img/header.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,12 +224,12 @@
 }
 @font-face {
   font-family: "Aleo_regular";
-  src: url(/dist/fonts/aleo-regular-webfont.ttf);
+  src: url(./fonts/aleo-regular-webfont.ttf);
 }
 .explore-places {
   width: 100%;
-  background-image: url(/dist/img/explore-places.png);
-  background: no-repeat url(/dist/img/explore-places.png);
+  background-image: url(./img/explore-places.png);
+  background: no-repeat url(./img/explore-places.png);
   height: 685px;
 }
 .explore-places__words {
@@ -559,8 +559,8 @@
 .spain {
   width: 100%;
   height: 700px;
-  background-image: url(/dist/img/spain.png);
-  background: no-repeat url(/dist/img/spain.png);
+  background-image: url(./img/spain.png);
+  background: no-repeat url(./img/spain.png);
 }
 .spain__context {
   position: absolute;
@@ -571,7 +571,7 @@
 .context {
   width: 541px;
   height: 371px;
-  background-image: url(/dist/img/spain-background.png);
+  background-image: url(./img/spain-background.png);
 }
 .context__version {
   margin-left: 30px;
@@ -664,8 +664,8 @@
 }
 .madrid {
   width: 100%;
-  background-image: url(/dist/img/madrid.png);
-  background: no-repeat url(/dist/img/madrid.png);
+  background-image: url(./img/madrid.png);
+  background: no-repeat url(./img/madrid.png);
   height: 700px;
 }
 .madrid__context {
@@ -722,7 +722,7 @@
 }
 .coments {
   width: 100%;
-  background-image: url(/dist/img/coments.png);
+  background-image: url(./img/coments.png);
   color: white;
   height: 735px;
   display: flex;
